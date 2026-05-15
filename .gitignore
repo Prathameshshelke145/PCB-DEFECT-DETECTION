@@ -56,8 +56,8 @@ build/
 site-packages/
 
 # ── Jupyter ───────────────────────────────────
-.ipynb_checkpoints/
-*.ipynb
+# .ipynb_checkpoints/
+# *.ipynb
 
 # ── Coverage / testing ────────────────────────
 .coverage
