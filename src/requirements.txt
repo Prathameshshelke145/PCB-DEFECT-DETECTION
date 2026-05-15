@@ -1,0 +1,7 @@
+ultralytics
+keras-cv
+opencv-python
+pillow
+tensorflow
+flask
+reportlab

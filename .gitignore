@@ -1,0 +1,64 @@
+# ── Virtual environment ──────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Model files (large binaries, sensitive) ──
+models/
+*.pt
+*.pth
+*.onnx
+*.keras
+*.h5
+*.pb
+*.tflite
+*.caffemodel
+
+# ── Python cache ─────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.pytest_cache/
+
+# ── Temp / runtime data ───────────────────────
+data/pcb_*.jpg
+tmp/
+temp/
+*.tmp
+
+# ── Environment / secrets ─────────────────────
+.env
+.env.*
+*.env
+secrets.py
+config.local.py
+
+# ── IDE / editor ──────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Logs ──────────────────────────────────────
+*.log
+logs/
+
+# ── Distribution / packaging ──────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+site-packages/
+
+# ── Jupyter ───────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Coverage / testing ────────────────────────
+.coverage
+htmlcov/
